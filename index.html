@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Many?</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <heading>
+        <h1>How many of that number in all these?</h1>
+    </heading>
+    <main>
+        <div id="descMain">
+            <p>Find how many times a number occurs inside a range of numbers. e.g. 3 in a range of 32-34 would be 4 (32, 33, 34)</p>
+        </div>
+        <form id="numberForm">
+            <label for="num">How many times does</label>
+            <input type="number" name="num" id="num" value="1">
+            <label for="lowRange">occur between</label>
+            <input type="number" name="lowRange" id="lowRange" value="1">
+            <label for="highRange">and</label>
+            <input type="number" name="highRange" id="highRange" value="10">
+            <input type="submit" id="submit">
+        </form>
+        <div id="error"></div>
+        <div id="results"></div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
