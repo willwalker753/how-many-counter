@@ -42,7 +42,7 @@ function findMatches(num, lowRange, highRange) {
     let resultsArr = [];
     let resultsArrInd = 0;
     let overallCount = 0;
-
+     //findmatches
     for(lowRange;lowRange <= highRange;lowRange++) {
         let curStr = lowRange.toString(); 
         var re = new RegExp(num, 'g');
